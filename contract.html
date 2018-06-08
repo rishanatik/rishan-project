@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap4.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shop Buket</title>
+</head>
+
+<body>
+<div class="container-fluid bg-white">
+
+    <div class="row text-light pt-2 pb-2">
+        <div class="col-md-3">
+            <img src="img/logo.png" alt="logo" style="height: 50px; width: 150px;"/>
+        </div>
+
+
+        <div class="col-md-5">
+            <form class="form-inline my-2 my-lg-0 pt-2">
+
+                <input class="form-control mr-sm-2 mw-150 w-75" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="nav">
+                <ul class="nav justify-content-md-start float-left">
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-facebook" aria-hidden="true" style="font-size:23px; color: #005cbf;"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter" aria-hidden="true" style="font-size:23px;"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram" aria-hidden="true" style="font-size:23px; color: crimson;"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-google-plus" aria-hidden="true" style="font-size:23px; color: red;"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:23px; color: #0056b3;"></i></a></li>
+                </ul>
+
+                <div class="btn-group float-right" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Login
+                    </button>
+
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <form class="px-4 py-3">
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormEmail1" class="text-primary">Email address</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormPassword1" class="text-primary">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input ml-1" id="dropdownCheck">
+                                        <label class="form-check-label text-primary" for="dropdownCheck">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </form>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">New around here? Sign up</a>
+                                <a class="dropdown-item" href="#">Forgot password?</a>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                        Sign Up
+                    </button>
+                    <div class="modal" id="myModal2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="px-lg-4 py-2">
+                                    <div class="form-group">
+                                        <label for="firstName" class="text-primary">First Name:</label>
+                                        <input type="email" class="form-control" id="firstName" placeholder="name">
+                                        <label for="lastName" class="text-primary">Last Name:</label>
+                                        <input type="email" class="form-control" id="lastName" placeholder="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailAddress" class="text-primary">Email address:</label>
+                                        <input type="email" class="form-control" id="emailAddress" placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="text-primary">Password:</label>
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                        <label for="confirmPassword" class="text-primary">Confirm Password:</label>
+                                        <input type="password" class="form-control" id="confirmPassword" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-radio">
+                                            <input type="radio" name="gender" value="1"><span class="text-dark pl-2">Male</span>
+                                            <input type="radio" name="gender" value="2"><span class="text-dark pl-2">Female</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birthday" class="text-primary">Date of Birth:</label>
+                                        <input type="date" name="date_of_birth" id="birthday"/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="checkbox" name="agree"><span class="text-dark">I agree with all term and condition.</span>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                                    </form>
+
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid bg-light">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MEN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> T-shirt</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Watches</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Shoes</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Bags</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Sunglasses</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WOMEN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Jewellery</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Cosmetics</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Watches</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Hair Cair</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Handbags</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Shoes</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gagets
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Mobile Phones</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> PC</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Laptop</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Camara</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Toys</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Headphones</a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item"><a href="contract.html" class="nav-link">Contact Us</a></li>
+            </ul>
+
+            <div class=" text-danger"> <a href="#" class=""><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i></a> <span style="color:red">My Cart - $ 0.00</span></div>
+
+        </div>
+    </nav>
+</div>
+
+<div class="container-fluid pt-5 pb-5 bg-light-gray text-dark">
+    <div class="container">
+    <h3 class="text-center">Contact Us</h3>
+    <hr/>
+    <div class="row">
+
+    <div class="col-md-4">
+
+            <div class="">
+                <h4>ADDRESS</h4>
+                <h6>345 Setwant natrer,</h6>
+                <h6>Washington. United States.</h6>
+            </div>
+
+            <div class="pt-3">
+                <h4>PHONE</h4>
+                <h6>+1(401) 1234 567.</h6>
+                <h6>+1(804) 4261 150.</h6>
+            </div>
+            <div class="pt-3">
+                <h4>EMAIL</h4>
+                <h6><a href="#">shopbucket@gmail.com</a></h6>
+                <h6><a href="#">shopbuket@info.com</a></h6>
+            </div>
+
+
+    </div>
+
+    <div class="col-md-8">
+        <form action="#" method="post">
+        <div class="card-body">
+
+            <input type="text" class="form-control  w-75 " placeholder="Your Name">
+            <input type="email" class="form-control  w-75 mt-1"  placeholder="Your Email">
+            <input type="text" class="form-control  w-75 mt-1" placeholder="Subject">
+            <input type="number" class="form-control  w-75 mt-1" placeholder="Phone Number">
+            <textarea  class="form-control w-75 mt-1" name="your message" placeholder="Your message" style="border:none "></textarea>
+            <input type="submit" value="Send message" class="form-control mt-1 w-25">
+
+    </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22702.22744502486!2d11.113366067229226!3d44.662878362361056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fc3eca9065c15%3A0x12ec8a03aadae866!2s40019+Sant&#39;Agata+Bolognese+BO%2C+Italy!5e0!3m2!1sen!2sin!4v1451281303075" allowfullscreen></iframe>
+</div>
+
+<div class="newsletter">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6 newsletter_left pt-5">
+            <h2>Newsletter</h2>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+        </div>
+        <div class="col-md-6 newsletter_right pt-5">
+            <form action="#" method="post">
+                <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                <input type="submit" value="Subscribe" />
+            </form>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="container-fluid pt-5 pb-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row">
+                        <h5>Meta</h5>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="underline bg-light" style="width: 50px;"></div>
+                    </div>
+
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Register</p>
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Log In</p>
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Enter RSS</p>
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Comments RSS</p>
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> Feedback</p>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="row">
+                        <h5>Recent Posts</h5>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="underline bg-light" style="width: 50px;"></div>
+                    </div>
+                    <div class="row">
+                        <div class="media">
+                            <img src="img/b1.jpg" class="img-fluid" alt="media-image">
+                            <div class="media-body ml-2">
+                                <h6>Jackets For The Soul. What Color Is Yours?</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="media">
+                            <img src="img/b2.jpg" class="img-fluid" alt="media-image">
+                            <div class="media-body ml-2">
+                                <h6>Best Fabrics For Your Dream Dress!</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pl-4">
+                    <div class="row">
+                        <h5>About</h5>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="underline bg-light" style="width: 50px;"></div>
+                    </div>
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel inventore quis harum mollitia ex esse obcaecati deserunt alias fuga quia.<br>Vel inventore quis harum mollitia.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="row">
+                        <h5>Tags</h5>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="underline bg-light" style="width: 50px;"></div>
+                    </div>
+                    <button class="btn btn-outline-light">Autunm</button> <button class="btn btn-outline-light">Dress</button> <button class="btn btn-outline-light">Fashion</button> <button class="btn btn-outline-light">Ladice Dress</button> <button class="btn btn-outline-light">Black Dress</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer>
+    <div class="container-fluid pt-5 pb-5 bg-dark text-light text-center ">
+        <p class="copy-right">© 2018 Shop Buket . All rights reserved | Design by <a>Rishan</a></p>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
